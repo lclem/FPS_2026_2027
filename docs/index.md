@@ -18,18 +18,17 @@
 |   13 | 19.01 |         |          |      |
 
 # Plan (13 lectures)
-
 ## Commuting indeterminates
-
-- Rational and algebraic power series. Closure properties.
-- CDA power series and combinatorial enumeration (constructible species). Closure properties.
-- D-finite power series. Application to equivalence of unambiguous Parikh automata. Closure properties.
+- Introduction and overview. Rational and algebraic power series. Closure properties. Chomsky-Schützenberger theorem on unambiguous finite automata and context-free grammars.
+- Polynomial identity testing. Zeroness of algebraic power series.
+- CDA power series. Closure properties. Application to combinatorial enumeration (constructible species of structures).
+- D-finite power series and holonomic sequences. Diagonals. Application to equivalence of unambiguous Parikh automata.
 - Automatic and regular sequences. Algebraic power series in positive characteristic. Christol's theorem.
-
+- Skew polynomials (Ore extensions). Embedding in a skew field. Application to equivalence of unambiguous register automata.
 ## Noncommuting indeterminates
-- Rational series and weighted automata. Minimisation. Weighted automata over a skew field.
-- Algebraic series and weighted context-free grammars. Unambiguous context-free grammars and algebraic series (Chomsky-Schützenberger theorem).
-- Ordering the free group. Embedding series in a skew field. Application to zeroness of weighted multitape finite automata.
+- Rational series and weighted automata. Minimisation. Rational supports and Restivo-Reutenauer's theorem. Weighted automata over a skew field.
+- Ordering the free group. Embedding series in a skew field. Application to zeroness of weighted multitape finite automata. Worrell's complexity upper bound via the Amitsur-Levitzki's theorem.
+- Ehrenfeucht’s Conjecture for finite and infinite words. Hilbert's method.
 - Polynomial recursive sequences and polynomial automata. Zeroness algorithm.
 - Shuffle-finite series and shuffle automata. Zeroness algorithm. Commutativity problem and application to multivariate CDA.
 - Lie rank, differentially-finite series, and differential automata. Minimisation.
