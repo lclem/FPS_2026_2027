@@ -7,6 +7,8 @@ docs/.jekyll-metadata
 Gemfile.lock
 *sync-conflict*
 
+tutorials/build
+
 *.aux
 *.log
 *.out
