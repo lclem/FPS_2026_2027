@@ -183,6 +183,8 @@
   },
   "active": "66cb2f65f518daa3",
   "lastOpenFiles": [
+    "_layouts/default.liquid",
+    "_layouts",
     "index.md",
     "_site/assets/images/sprite_download.png",
     "_site/assets/images/icon_download.png",
@@ -197,7 +199,6 @@
     "_site/robots.txt",
     "_site/plan.html",
     "_site/lectures",
-    "_site/index.html",
     "_site/README.md",
     "_pages/plan.md",
     "_pages/lectures/01.md",
