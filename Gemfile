@@ -39,4 +39,4 @@ end
 # gem 'forwardable', '>= 1.4.1'
 
 gem 'google-protobuf', force_ruby_platform: true
-gem "nokogiri" #, force_ruby_platform: true #, '~> 1.15.0'
+gem "nokogiri", force_ruby_platform: true #, '~> 1.15.0'
