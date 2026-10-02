@@ -4,7 +4,7 @@ repository: lclem/FPS_2026_2027
 branch: main
 url: ""
 #https://lclem.github.io/FPS_2026_2027/
-baseurl: "/FPS_2026_2027/"
+baseurl: "/FPS_2026_2027"
 class: title, shelf, no-footer, fullbleed
 # theme: jekyll-theme-slate
 # remote-theme: "alshedivat/al-folio"
