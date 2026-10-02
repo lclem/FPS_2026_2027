@@ -55,6 +55,8 @@ jobs:
           packages: texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-science texlive-xetex latexmk
           version: 1.0
 
+      - run: sudo updmap-sys
+
       # - name: Setup latex
       #   run: |
       #     sudo apt-get update
