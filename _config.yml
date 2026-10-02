@@ -39,6 +39,7 @@ include:
   - tutorials/build
   - "tutorials/*.pdf"
   - "tutorials/build/*.pdf"
+  - "**/*.pdf"
   - "*.pdf"
 
 exclude:
