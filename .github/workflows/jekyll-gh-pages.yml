@@ -45,7 +45,7 @@ jobs:
           cache-version: 14 # Increment this number if you need to re-download cached gems
 
       - name: Ruby version
-        run: ruby -v
+        run: ruby -v && ls /home/runner/work/FPS_2026_2027/FPS_2026_2027/vendor/bundle/ruby/
 
       - name: update and install
         run: rm Gemfile.lock && bundle update && bundle install
