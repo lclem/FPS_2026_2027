@@ -28,24 +28,10 @@ plugins:
   - jekyll-remote-theme
 
 keep_files:
-  - tutorials
-  - build
-  - tutorials/build
   - "tutorials/build/*.pdf"
-  - "*.pdf"
 
 include:
   - _pages
-  - build
-  - tutorials
-  - tutorials/build
-  - "tutorials/*.pdf"
-  - "tutorials/build/*.pdf"
-  - "**/*.pdf"
-  - "*/*/*.pdf"
-  - "**/**/*.pdf"
-  - "*.pdf"
-  - tutorials/build/01.pdf
 
 exclude:
   - "*.tex"
