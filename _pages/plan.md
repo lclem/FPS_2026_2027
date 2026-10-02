@@ -1,6 +1,7 @@
 ---
-title: plan
+title: Plan
 permalink: plan
+layout: default
 ---
 # Plan (13 lectures)
 ## Commuting indeterminates
