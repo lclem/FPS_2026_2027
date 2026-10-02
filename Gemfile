@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # gem "github-pages"
 gem "jekyll-theme-slate"
 gem "jekyll-pdf-embed"
-# gem "jekyll-last-modified-at"
+gem "jekyll-last-modified-at"
 gem "jekyll-scholar", '>= 7.0.0'
 
 # gem "jekyll-remote-theme"
