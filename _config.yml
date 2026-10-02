@@ -27,9 +27,13 @@ plugins:
   - jekyll-scholar
   - jekyll-remote-theme
 
-include: ["_pages", "tutorials/build"]
+include: ["_pages", "tutorials/build/"]
 
 exclude:
+  - "*.aux"
+  - "*.log"
+  - "*.out"
+  - "*.pdfsync"
   - Gemfile
   - Gemfile.lock
   - node_modules
