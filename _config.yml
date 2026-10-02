@@ -27,22 +27,21 @@ plugins:
   - jekyll-scholar
   - jekyll-remote-theme
 
-include: ["_pages", "tutorials/build/"]
+include: ["_pages", "tutorials/build"]
 
 exclude:
+  - "*.tex"
   - "*.aux"
   - "*.log"
   - "*.out"
   - "*.pdfsync"
+  - "*.sh"
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor/bundle
   - Makefile
   - README.md
-  - update.sh
-  - tutorials/*.tex
-  - tutorials/Makefile
 
 scholar:
   # style: modern-language-association
