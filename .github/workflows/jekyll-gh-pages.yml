@@ -42,11 +42,14 @@ jobs:
         with:
           ruby-version: '3.4.0' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 15 # Increment this number if you need to re-download cached gems
+          cache-version: 16 # Increment this number if you need to re-download cached gems
 
       - name: Ruby version
         run: ruby -v && ls /home/runner/work/FPS_2026_2027/FPS_2026_2027/vendor/bundle/ruby/
 
+      - name: Compile and run test
+        run: bundle exec cucumber
+        
       - name: Jekyll version
         run: bundle exec jekyll -v
 

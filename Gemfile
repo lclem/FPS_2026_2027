@@ -4,7 +4,7 @@ group :jekyll_plugins do
 	gem "github-pages"
 	# gem "jekyll-theme-slate"
 	# gem "jekyll-last-modified-at"
-	gem "jekyll-scholar", '>= 7.3.0'
+	gem "jekyll-scholar" #, '>= 7.3.0'
 end
 
 # gem "bigdecimal"
