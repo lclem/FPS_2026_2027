@@ -27,7 +27,7 @@ plugins:
   - jekyll-scholar
   - jekyll-remote-theme
 
-include: ["_pages", "tutorials/build"]
+include: ["_pages", "tutorials"]
 
 exclude:
   - "*.tex"
