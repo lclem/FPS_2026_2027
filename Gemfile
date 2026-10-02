@@ -1,14 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'cucumber'
-
-group :jekyll_plugins do	
-	gem "github-pages"
-	# gem "jekyll-theme-slate"
-	# gem "jekyll-last-modified-at"
-	gem "jekyll-scholar", '>= 7.0'
-	
-end
+gem "github-pages"
+# gem "jekyll-theme-slate"
+# gem "jekyll-last-modified-at"
+gem "jekyll-scholar", '>= 7.0'
 
 # gem "bibtex-ruby"
 # gem "bigdecimal"
