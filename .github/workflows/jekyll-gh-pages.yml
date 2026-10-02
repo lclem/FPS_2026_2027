@@ -63,9 +63,6 @@ jobs:
       - name: Show directory
         run: pwd && ls -la && find .
 
-      - name: Show directory 2
-        run: find tutorials
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
 
