@@ -2,16 +2,17 @@ title: Formal power series, and applications (2026-2027)
 description: tuesdays 16:15-17:45 (lecture) / 18:15-19:45 (tutorial), room 3140@MIMUW
 repository: lclem/FPS_2026_2027
 branch: main
-url: ""
-#https://lclem.github.io/FPS_2026_2027/
+url: "https://lclem.github.io/FPS_2026_2027/"
 baseurl: "/FPS_2026_2027"
 class: title, shelf, no-footer, fullbleed
 # theme: jekyll-theme-slate
 # remote-theme: "alshedivat/al-folio"
 remote_theme: pages-themes/slate@v0.2.0
 last_updated: true
+
 layouts_dir: _layouts
 includes_dir: _includes
+
 encoding: "utf-8"
 show_dir_listing: false
 plugins:
