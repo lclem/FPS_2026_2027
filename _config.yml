@@ -42,6 +42,8 @@ include:
   - "tutorials/*.pdf"
   - "tutorials/build/*.pdf"
   - "**/*.pdf"
+  - "*/*/*.pdf"
+  - "**/**/*.pdf"
   - "*.pdf"
   - tutorials/build/01.pdf
 

@@ -13,7 +13,7 @@ $(BUILD)/%.pdf: %.tex common.tex $(BUILD) Makefile
 	@echo + Making $@ from $<
 	pdflatex -output-directory=$(BUILD) "$(patsubst $(BUILD)/%.pdf,%.tex,$@)"
 	pdflatex -output-directory=$(BUILD) "$(patsubst $(BUILD)/%.pdf,%.tex,$@)"
-	cp $@ "$(patsubst $(BUILD)/%.pdf,%.pdf,$@)"
+# 	cp $@ "$(patsubst $(BUILD)/%.pdf,%.pdf,$@)"
 
 $(TUTORIALS) : $(BUILD)/%.pdf : %.tex
 
