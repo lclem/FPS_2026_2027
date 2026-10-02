@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'cucumber'
+
 group :jekyll_plugins do	
 	gem "github-pages"
 	# gem "jekyll-theme-slate"
