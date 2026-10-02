@@ -39,10 +39,10 @@ jobs:
         with:
           ruby-version: '2.7.2' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 10 # Increment this number if you need to re-download cached gems
+          cache-version: 12 # Increment this number if you need to re-download cached gems
 
-      # - name: Install
-      #   run: cd docs && bundle install
+      - name: update and install
+        run: rm Gemfile.lock && bundle update && bundle install
 
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
