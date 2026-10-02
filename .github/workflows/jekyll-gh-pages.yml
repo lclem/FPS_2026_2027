@@ -51,7 +51,7 @@ jobs:
           JEKYLL_ENV: production
           
       - name: show site directory
-        run: ls -alh _site
+        run: find _site
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
