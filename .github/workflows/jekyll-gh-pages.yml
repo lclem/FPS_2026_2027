@@ -52,7 +52,7 @@ jobs:
 
       - uses: awalsh128/cache-apt-pkgs-action@v1
         with:
-          packages: texlive-latex-extra texlive-fonts-recommended texlive-xetex latexmk
+          packages: texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-xetex latexmk
           version: 1.0
 
       # - name: Setup latex
