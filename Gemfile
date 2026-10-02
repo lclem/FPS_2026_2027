@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gemspec
 
 # gem "github-pages"
 # gem "jekyll-theme-slate"
@@ -11,3 +12,5 @@ gem "jekyll-scholar", '>= 7.0.0'
 # gem "nokogiri", '~> 1.15.0'
 # gem "uri", '0.10.0'
 # gem 'forwardable', '>= 1.4.1'
+
+gem 'google-protobuf', force_ruby_platform: true
