@@ -39,4 +39,4 @@ scholar:
   source: ./_bibliography
   bibliography: references.bib
 github:
-  is_project_page: true
+  is_project_page: false
