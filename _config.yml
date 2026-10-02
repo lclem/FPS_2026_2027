@@ -37,6 +37,7 @@ include:
   - _pages
   - tutorials
   - tutorials/build
+  - "tutorials/*.pdf"
   - "tutorials/build/*.pdf"
   - "*.pdf"
 

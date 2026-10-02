@@ -190,6 +190,7 @@
   },
   "active": "66cb2f65f518daa3",
   "lastOpenFiles": [
+    "tutorials/01.pdf",
     "_site/tutorials/build/01.pdfsync",
     "_site/tutorials/build/01.pdf",
     "_site/tutorials/build/01.out",
@@ -202,7 +203,6 @@
     "_pages/lectures/01.md",
     "_pages/index.md",
     "_layouts/lecture.html",
-    "_layouts/default copy.html",
     "index.md",
     "_site/assets/images/sprite_download.png",
     "_site/assets/images/icon_download.png",
