@@ -41,6 +41,8 @@ include:
   - "tutorials/build/*.pdf"
   - "**/*.pdf"
   - "*.pdf"
+  - tutorials/build/01.pdf
+
 
 exclude:
   - "*.tex"
