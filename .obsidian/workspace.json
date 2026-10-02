@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/lectures/01.md",
+                "file": "docs/index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "01"
+              "title": "index"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/lectures/01.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/lectures/01.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/lectures/01.md",
+                "file": "docs/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -193,19 +193,18 @@
     "_bibliography/references.bib",
     "_bibliography/natbib.csl",
     "_bibliography",
+    "docs/_bibliography/natbib.csl",
     "Gemfile.lock",
     "_config.yml",
-    "Gemfile",
-    "docs/Gemfile.lock",
-    "docs/Gemfile.sb-d835b35c-Bbbuty",
-    "docs/_bibliography/natbib.csl",
     "docs/_bibliography/references.bib",
+    "Gemfile",
     "docs/_bibliography",
-    "docs/index.md",
+    "docs/tutorials/Makefile",
+    "docs/tutorials/common.tex",
     "docs/plan.md",
     "docs/lectures/01.md",
-    "docs/lectures/lecture_01.md",
-    "docs/lectures/lecture 01.md",
+    "docs/index.md",
+    "lecture_01.md",
     "docs/lectures/02/summary.md"
   ]
 }
