@@ -61,7 +61,7 @@ jobs:
         run: cd tutorials && make
           
       - name: Show directory
-        run: pwd && ls -la && find .
+        run: find _site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5

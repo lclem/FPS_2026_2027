@@ -46,7 +46,6 @@ exclude:
   - node_modules
   - vendor
   - Makefile
-  - tutorials/Makefile
   - README.md
 
 scholar:
