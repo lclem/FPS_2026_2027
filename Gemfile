@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
 
-# gem "github-pages"
-
-gem "jekyll-theme-slate"
-gem "jekyll-pdf-embed"
-gem "jekyll-last-modified-at"
-gem "jekyll-scholar", '>= 7.0.0'
+group :jekyll_plugins do
+	gem "jekyll-theme-slate"
+	gem "jekyll-pdf-embed"
+	gem "jekyll-last-modified-at"
+	gem "jekyll-scholar", '>= 7.0.0'
+	gem "github-pages"
+end
 
 # gem "bibtex-ruby"
 # gem "bigdecimal"
