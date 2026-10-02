@@ -1,4 +1,6 @@
 ---
+title: Formal power series, and applications
+layout:
 permalink: /
 ---
 

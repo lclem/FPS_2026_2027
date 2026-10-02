@@ -4,13 +4,25 @@ repository: lclem/FPS_2026_2027
 url: https://lclem.github.io/FPS_2026_2027/
 baseurl: ""
 class: title, shelf, no-footer, fullbleed
-theme: jekyll-theme-slate
-remote-theme: "alshedivat/al-folio"
+# theme: jekyll-theme-slate
+# remote-theme: "alshedivat/al-folio"
+remote_theme: pages-themes/slate@v0.2.0
 last_updated: true
 plugins:
   - jekyll-pdf-embed
   - jekyll-last-modified-at
   - jekyll-scholar
+  - jekyll-remote-theme
+include: ["_pages"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - Makefile
+  - README.md
+  - update.sh
+  - tutorials
 scholar:
   # style: modern-language-association
   style: apa

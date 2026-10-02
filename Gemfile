@@ -1,13 +1,15 @@
 source 'https://rubygems.org'
 
+# gem "github-pages", group: :jekyll_plugins
+
 group :jekyll_plugins do
 	gem "jekyll-theme-slate"
 	gem "jekyll-pdf-embed"
 	gem "jekyll-last-modified-at"
 	gem "jekyll-scholar", '>= 7.0.0'
-	gem 'classifier-reborn'
+	# gem 'classifier-reborn'
     gem 'jekyll'
-    gem 'jekyll-archives'
+    # gem 'jekyll-archives'
     gem 'jekyll-remote-theme'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
@@ -22,12 +24,11 @@ group :jekyll_plugins do
     gem 'jekyll-tabs'
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
+	gem 'jekyll-default-layout'
     gem 'jemoji'
-    gem 'mini_racer'
-    gem 'unicode_utils'
-    gem 'webrick'
-	# gem "github-pages"
-	gem "jekyll-remote-theme"
+	gem 'mini_racer'
+	gem 'unicode_utils'
+	gem 'webrick'
 end
 
 # gem "bibtex-ruby"
@@ -38,4 +39,4 @@ end
 # gem 'forwardable', '>= 1.4.1'
 
 gem 'google-protobuf', force_ruby_platform: true
-gem "nokogiri", force_ruby_platform: true #, '~> 1.15.0'
+gem "nokogiri" #, force_ruby_platform: true #, '~> 1.15.0'
