@@ -42,7 +42,7 @@ jobs:
           cache-version: 18 # Increment this number if you need to re-download cached gems
 
       - name: Ruby version
-        run: ruby -v && ls /home/runner/work/FPS_2026_2027/FPS_2026_2027/vendor/bundle/ruby/
+        run: ruby -v
 
       - name: Compile and run test
         run: bundle exec cucumber
