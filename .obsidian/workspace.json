@@ -190,12 +190,12 @@
   },
   "active": "66cb2f65f518daa3",
   "lastOpenFiles": [
+    "Gemfile.lock",
     "docs/lectures/01.md",
     "cucumber.yml",
     "_bibliography/references.bib",
     "_bibliography/natbib.csl",
     "_bibliography",
-    "Gemfile.lock",
     "_config.yml",
     "Gemfile",
     "docs/Gemfile.lock",

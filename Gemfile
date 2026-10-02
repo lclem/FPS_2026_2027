@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem "github-pages"
+# gem "github-pages"
 # gem "jekyll-theme-slate"
 # gem "jekyll-last-modified-at"
-gem "jekyll-scholar", '>= 7.0'
+gem "jekyll-scholar", '>= 7.0.0'
 
 # gem "bibtex-ruby"
 # gem "bigdecimal"
