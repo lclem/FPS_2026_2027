@@ -16,5 +16,3 @@ Gemfile.lock
 *.pdfsync
 *.synctex.gz
 *.fdb_latexmk
-
-docs/assets/tutorials/*.pdf
