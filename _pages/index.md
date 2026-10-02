@@ -3,7 +3,6 @@ title: Formal power series, and applications
 permalink: /
 layout: default
 ---
-
 #  Calendar
 
 | week |  date | lecture           | tutorial                     | note |

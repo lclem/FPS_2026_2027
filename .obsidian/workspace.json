@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/lectures/01.md",
+                "file": "_pages/index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "01"
+              "title": "index"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/lectures/01.md",
+                "file": "_pages/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/lectures/01.md",
+                "file": "_pages/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_pages/lectures/01.md",
+                "file": "_pages/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,10 +190,11 @@
   },
   "active": "66cb2f65f518daa3",
   "lastOpenFiles": [
+    "_pages/lectures/01.md",
+    "_pages/index.md",
     "_layouts/lecture.html",
     "_layouts/default copy.html",
     "assets/natbib.csl",
-    "_pages/index.md",
     "assets/css/style.scss",
     "assets/css",
     "assets",
@@ -201,7 +202,6 @@
     "_includes/head-custom-google-analytics.html",
     "_includes",
     "_layouts/default.html",
-    "_layouts/default.liquid",
     "index.md",
     "_site/assets/images/sprite_download.png",
     "_site/assets/images/icon_download.png",
@@ -209,7 +209,6 @@
     "_site/assets/images/bg_hr.png",
     "_site/README.md",
     "_pages/plan.md",
-    "_pages/lectures/01.md",
     "_site/docs/index.md",
     "docs/index.md",
     "plan.md",

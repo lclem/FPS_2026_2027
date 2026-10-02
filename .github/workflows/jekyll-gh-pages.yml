@@ -49,6 +49,9 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+
+      - name: Build tutorials
+        run: cd tutorials && make
           
       - name: show site directory
         run: find _site
