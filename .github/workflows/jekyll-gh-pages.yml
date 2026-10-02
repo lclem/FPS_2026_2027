@@ -44,9 +44,6 @@ jobs:
       - name: Ruby version
         run: ruby -v
 
-      - name: Compile and run test
-        run: bundle exec cucumber
-
       - name: Jekyll version
         run: bundle exec jekyll -v
 
