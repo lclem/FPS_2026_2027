@@ -11,10 +11,14 @@
             "id": "66cb2f65f518daa3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_pages/lectures/01.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "01"
             }
           }
         ]
@@ -95,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "_pages/lectures/01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "_pages/lectures/01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -157,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md",
+                "file": "_pages/lectures/01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -186,33 +190,33 @@
   },
   "active": "66cb2f65f518daa3",
   "lastOpenFiles": [
-    "_layouts/default.html",
-    "_includes/head-custom-google-analytics.html",
-    "_includes/head-custom.html",
+    "_pages/index.md",
     "assets/css/style.scss",
-    "_includes",
     "assets/css",
     "assets",
-    "_site/robots.txt",
-    "_site/feed.xml",
-    "_site/sitemap.xml",
-    "_pages/index.md",
+    "_includes/head-custom.html",
+    "_includes/head-custom-google-analytics.html",
+    "_includes",
+    "_layouts/default.html",
+    "_layouts/default.liquid",
     "_layouts",
-    "docs/index.md",
+    "index.md",
+    "_site/assets/images/sprite_download.png",
+    "_site/assets/images/icon_download.png",
+    "_site/assets/images/blacktocat.png",
+    "_site/assets/images/bg_hr.png",
+    "_site/assets/css/style.css.map",
+    "_site/README.md",
     "_pages/plan.md",
     "_pages/lectures/01.md",
-    "_site/README.md",
-    "_site/assets/images/blacktocat.png",
-    "_site/assets/images/sprite_download.png",
-    "_site/assets/images/bg_hr.png",
-    "_site/assets/images/icon_download.png",
     "_site/docs/index.md",
-    "lectures/01.md",
-    "index.md",
+    "docs/index.md",
     "plan.md",
-    "docs/plan.md",
+    "lectures/01.md",
     "docs/lectures/01.md",
-    "lecture_01.md",
+    "docs/plan.md",
+    "docs/lectures/lecture_01.md",
+    "docs/lectures/lecture 01.md",
     "docs/lectures/02/summary.md"
   ]
 }
