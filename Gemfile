@@ -27,6 +27,7 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
 	# gem "github-pages"
+	gem "jekyll-remote-theme"
 end
 
 # gem "bibtex-ruby"
@@ -36,5 +37,6 @@ gem "nokogiri" #, '~> 1.15.0'
 
 # gem "uri", '0.10.0'
 # gem 'forwardable', '>= 1.4.1'
+
 
 gem 'google-protobuf', force_ruby_platform: true
