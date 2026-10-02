@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/lectures/01.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "01"
+              "title": "index"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/lectures/01.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/lectures/01.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/lectures/01.md",
+                "file": "docs/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,6 +190,7 @@
   },
   "active": "66cb2f65f518daa3",
   "lastOpenFiles": [
+    "docs/lectures/01.md",
     "cucumber.yml",
     "_bibliography/references.bib",
     "_bibliography/natbib.csl",
@@ -200,10 +201,8 @@
     "docs/Gemfile.lock",
     "docs/Gemfile.sb-d835b35c-Bbbuty",
     "docs/_bibliography/natbib.csl",
-    "docs/_bibliography/references.bib",
     "docs/index.md",
     "docs/plan.md",
-    "docs/lectures/01.md",
     "docs/lectures/lecture_01.md",
     "docs/lectures/lecture 01.md",
     "docs/lectures/02/summary.md"
