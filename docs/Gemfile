@@ -8,8 +8,5 @@ group :jekyll_plugins do
 	gem 'jekyll-scholar'
 end
 
-gem "faraday-retry"
 gem "bigdecimal"
 gem "csv"
-
-gem "webrick", "~> 1.9"
