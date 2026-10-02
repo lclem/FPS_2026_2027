@@ -29,11 +29,13 @@ plugins:
 
 keep_files:
   - tutorials
+  - tutorials/build
   - "*.pdf"
 
 include:
   - _pages
   - tutorials
+  - tutorials/build
   - "*.pdf"
 
 exclude:
