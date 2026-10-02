@@ -39,7 +39,10 @@ jobs:
         with:
           ruby-version: '2.7.2' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 12 # Increment this number if you need to re-download cached gems
+          cache-version: 13 # Increment this number if you need to re-download cached gems
+
+      - name: Ruby version
+        run: ruby -v
 
       - name: update and install
         run: rm Gemfile.lock && bundle update && bundle install
