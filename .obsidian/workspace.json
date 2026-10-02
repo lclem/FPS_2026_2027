@@ -11,10 +11,14 @@
             "id": "66cb2f65f518daa3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "docs/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -183,31 +190,30 @@
   },
   "active": "66cb2f65f518daa3",
   "lastOpenFiles": [
-    "_site/update.sh",
-    "_site/tutorials/build/01.pdfsync",
-    "_site/tutorials/build/01.pdf",
-    "_site/tutorials/build/01.out",
-    "_site/tutorials/build/01.log",
-    "_site/tutorials/build/01.aux",
-    "_site/assets/images/sprite_download.png",
-    "_site/assets/images/icon_download.png",
-    "_site/assets/images/blacktocat.png",
-    "_site/assets/images/bg_hr.png",
-    "_site/assets/css/style.css.map",
-    "_site/assets/css/style.css",
-    "_site/tutorials/common.tex",
-    "_site/tutorials/build",
+    "_site/Makefile",
     "_site/tutorials/Makefile",
-    "_site/docs/index.md",
+    "_site/tutorials/common.tex",
     "_site/README.md",
-    "docs/index.md",
-    "plan.md",
+    "_site/tutorials/01.tex",
+    "_site/assets/images/blacktocat.png",
+    "_site/tutorials/build/01.out",
+    "_site/tutorials/build/01.pdf",
+    "_site/tutorials/build/01.pdfsync",
+    "_site/tutorials/build/01.aux",
+    "_site/tutorials/build/01.log",
+    "_site/assets/images/sprite_download.png",
+    "_site/assets/images/bg_hr.png",
+    "_site/update.sh",
+    "_site/assets/images/icon_download.png",
+    "_site/docs/index.md",
     "lectures/01.md",
     "index.md",
-    "docs/lectures/01.md",
+    "Gemfile.lock",
+    "plan.md",
     "docs/plan.md",
-    "docs/lectures/lecture_01.md",
-    "docs/lectures/lecture 01.md",
+    "docs/lectures/01.md",
+    "docs/index.md",
+    "lecture_01.md",
     "docs/lectures/02/summary.md"
   ]
 }

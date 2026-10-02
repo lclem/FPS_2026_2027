@@ -1,10 +1,11 @@
-theme: jekyll-theme-slate
 title: Formal power series, and applications (2026-2027)
 description: tuesdays 16:15-17:45 (lecture) / 18:15-19:45 (tutorial), room 3140@MIMUW
 repository: lclem/FPS_2026_2027
 url: https://lclem.github.io/FPS_2026_2027/
 baseurl: ""
 class: title, shelf, no-footer, fullbleed
+theme: jekyll-theme-slate
+remote-theme: "alshedivat/al-folio"
 last_updated: true
 plugins:
   - jekyll-pdf-embed
