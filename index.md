@@ -3,7 +3,7 @@
 
 | week |  date | lecture                | tutorial                          | note |
 | ---: | ----: | :--------------------- | :-------------------------------- | ---- |
-|    1 | 06.10 | [01](docs/lectures/01) | [01](docs/tutorials/build/01.pdf) |      |
+|    1 | 06.10 | [01](lectures/01) | [01](tutorials/build/01.pdf) |      |
 |    2 | 13.10 |                        |                                   |      |
 |    3 | 20.10 |                        |                                   |      |
 |    4 | 27.10 |                        |                                   |      |
