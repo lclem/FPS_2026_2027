@@ -32,7 +32,8 @@ end
 # gem "bibtex-ruby"
 # gem "bigdecimal"
 # gem "csv"
-# gem "nokogiri", '~> 1.15.0'
+gem "nokogiri" #, '~> 1.15.0'
+
 # gem "uri", '0.10.0'
 # gem 'forwardable', '>= 1.4.1'
 
