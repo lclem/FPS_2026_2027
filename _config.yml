@@ -41,10 +41,11 @@ exclude:
 
 scholar:
   # style: modern-language-association
-  style: apa
+  # style: apa
+  style: natbib
   locale: en
   source: ./_bibliography
   bibliography: references.bib
-  
+
 github:
   is_project_page: false
