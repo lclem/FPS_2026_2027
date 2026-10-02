@@ -5,5 +5,12 @@ class: title, shelf, no-footer, fullbleed
 plugins:
   - jekyll-pdf-embed
   - jekyll-last-modified-at
+  - jekyll-scholar
+scholar:
+  # style: modern-language-association
+  style: apa
+  locale: en
+  source: ./_bibliography
+  bibliography: references.bib
 github:
   is_project_page: false
