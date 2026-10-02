@@ -183,6 +183,7 @@
   },
   "active": "66cb2f65f518daa3",
   "lastOpenFiles": [
+    "_layouts/default.html",
     "_layouts/default.liquid",
     "_layouts",
     "index.md",
@@ -198,7 +199,6 @@
     "_site/sitemap.xml",
     "_site/robots.txt",
     "_site/plan.html",
-    "_site/lectures",
     "_site/README.md",
     "_pages/plan.md",
     "_pages/lectures/01.md",

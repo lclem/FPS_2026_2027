@@ -9,6 +9,7 @@ class: title, shelf, no-footer, fullbleed
 # remote-theme: "alshedivat/al-folio"
 remote_theme: pages-themes/slate@v0.2.0
 last_updated: true
+layouts_dir: _layouts
 plugins:
   - jekyll-pdf-embed
   - jekyll-last-modified-at
