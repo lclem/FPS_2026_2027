@@ -48,6 +48,7 @@ jobs:
         run: cd docs && bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+          BUNDLE_REPLACE_DEFAULT_GEMS: "true"
           
       # - name: Build with Jekyll
       #   uses: actions/jekyll-build-pages@v1
