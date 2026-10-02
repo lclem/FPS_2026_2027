@@ -40,9 +40,9 @@ exclude:
   - tutorials
 
 scholar:
-  # style: modern-language-association
+  style: modern-language-association
   # style: apa
-  style: assets/natbib.csl
+  # style: assets/natbib.csl
   locale: en
   source: ./_bibliography
   bibliography: references.bib
