@@ -41,9 +41,6 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 28 # Increment this number if you need to re-download cached gems
 
-      - name: Ruby version
-        run: ruby -v
-
       - name: Jekyll version
         run: bundle exec jekyll -v
 
@@ -53,11 +50,8 @@ jobs:
         env:
           JEKYLL_ENV: production
           
-      # - name: Build with Jekyll
-      #   uses: actions/jekyll-build-pages@v1
-      #   with:
-      #     source: ./docs
-      #     destination: ./_site
+      - name: show site directory
+        run: ls -alh _site
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
