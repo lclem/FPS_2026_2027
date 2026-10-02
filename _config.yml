@@ -37,7 +37,8 @@ exclude:
   - Makefile
   - README.md
   - update.sh
-  - tutorials
+  - tutorials/*.tex
+  - tutorials/Makefile
 
 scholar:
   # style: modern-language-association
