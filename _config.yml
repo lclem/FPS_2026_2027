@@ -5,6 +5,7 @@ repository: lclem/FPS_2026_2027
 url: https://lclem.github.io/FPS_2026_2027/
 baseurl: ""
 class: title, shelf, no-footer, fullbleed
+last_updated: true
 plugins:
   - jekyll-pdf-embed
   - jekyll-last-modified-at
