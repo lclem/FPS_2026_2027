@@ -35,6 +35,7 @@ keep_files:
 
 include:
   - _pages
+  - build
   - tutorials
   - tutorials/build
   - "tutorials/*.pdf"
