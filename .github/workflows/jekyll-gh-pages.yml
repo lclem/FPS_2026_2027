@@ -59,6 +59,8 @@ jobs:
 
       - name: Build tutorials
         run: cd tutorials && make
+
+      - run: cp -R tutorials _site/
           
       - name: Show directory
         run: find _site

@@ -29,6 +29,7 @@ plugins:
 
 keep_files:
   - tutorials
+  - build
   - tutorials/build
   - "tutorials/build/*.pdf"
   - "*.pdf"
@@ -43,7 +44,6 @@ include:
   - "**/*.pdf"
   - "*.pdf"
   - tutorials/build/01.pdf
-
 
 exclude:
   - "*.tex"
