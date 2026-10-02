@@ -10,3 +10,4 @@ end
 
 gem "bigdecimal"
 gem "csv"
+gem 'nokogiri', '~> 1.15.0'
