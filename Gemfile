@@ -10,5 +10,5 @@ end
 
 gem "bigdecimal"
 gem "csv"
-# gem 'nokogiri', '~> 1.15.0'
+gem 'nokogiri', '~> 1.15.0'
 # gem 'uri', '~> 0.10.0'

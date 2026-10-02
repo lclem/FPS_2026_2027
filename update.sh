@@ -1,3 +1,3 @@
 #!/bin/bash
 
-git pull && git add docs && git commit -m "up" && git push
+git pull && git add . && git commit -m "up" && git push
