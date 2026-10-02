@@ -60,8 +60,8 @@ jobs:
       - name: Build tutorials
         run: cd tutorials && make
           
-      - name: show directory
-        run: find .
+      - name: Show directory
+        run: pwd && find .
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
