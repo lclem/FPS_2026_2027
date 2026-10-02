@@ -51,9 +51,6 @@ jobs:
         run: rm Gemfile.lock && bundle update && bundle install
 
       - name: Jekyll version
-        run: jekyll -v
-
-      - name: Jekyll version
         run: /opt/hostedtoolcache/Ruby/2.7.2/x64/bin/bundle exec jekyll -v
 
       - name: Build with Jekyll
