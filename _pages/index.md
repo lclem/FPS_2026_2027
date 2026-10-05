@@ -26,10 +26,16 @@ layout: default
 - {% reference SalomaaSoittola:Book:PowerSeries:1978 %}
 - {% reference KuichSalomaa:1986 %}
 - {% reference BerstelReutenauer:1988 %}
+- {% reference PetkovsekWilfZeilberger:A=B:1996 %}
+- {% reference BergeronLabelleLerousReaddy:Species:CUP:1998 %}
+- {% reference Wilf:generatingfunctionology:2005 %}
 - {% reference Sakarovitch:CUP:2009 %}
 - {% reference FlajoletSedgewick:AC:2009 %}
+- {% reference Stanley:EC:CUP:2011 %}
 - {% reference KauersPaule:Tetrahedron:2011 %}
 - {% reference CoxLittleOShea:Ideals:2015 %}
+- {% Kauers:D-finite:2023 %}
+- {% reference Gray:FPS:2025 %}
 
 [ [USOS](https://usosweb.mimuw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=1000-2M26FPS) ]
 [ [sources](https://github.com/lclem/FPS_2026_2027){:target="_blank"} ]
