@@ -34,7 +34,7 @@ layout: default
 - {% reference Stanley:EC:CUP:2011 %}
 - {% reference KauersPaule:Tetrahedron:2011 %}
 - {% reference CoxLittleOShea:Ideals:2015 %}
-- {% Kauers:D-finite:2023 %}
+- {% reference Kauers:D-finite:2023 %}
 - {% reference Gray:FPS:2025 %}
 
 [ [USOS](https://usosweb.mimuw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=1000-2M26FPS) ]
