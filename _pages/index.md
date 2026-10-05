@@ -23,7 +23,7 @@ layout: default
 
 [plan](plan)
 # Book references
-
+- {% reference SalomaaSoittola:Book:PowerSeries:1978 %}
 
 [ [USOS](https://usosweb.mimuw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=1000-2M26FPS) ]
 [ [sources](https://github.com/lclem/FPS_2026_2027){:target="_blank"} ]
