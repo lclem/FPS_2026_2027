@@ -20,8 +20,9 @@ layout: default
 |   11 | 15.12 |                   |                              |      |
 |   12 | 12.01 |                   |                              |      |
 |   13 | 19.01 |                   |                              |      |
-
 [plan](plan)
+# References
+{% cite Sakarovitch:CUP:2009 %}
 
 [ [USOS](https://usosweb.mimuw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=1000-2M26FPS) ]
 [ [sources](https://github.com/lclem/FPS_2026_2027){:target="_blank"} ]
