@@ -20,5 +20,7 @@ tutorials/build
 *.synctex.gz
 *.fdb_latexmk
 
+*.pdf
+
 **/aux/*
 **/out/*
