@@ -32,6 +32,7 @@ keep_files:
 
 include:
   - _pages
+  - _images
 
 exclude:
   - "*.tex"
