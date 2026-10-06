@@ -11,11 +11,12 @@
 % \usepackage{bbold}
 \usepackage[textwidth=2cm,textsize=small]{todonotes}
 \usepackage{subcaption}
-\usepackage{enumerate}
+\usepackage{enumitem}
 \usepackage{xspace}
 % \usepackage{stmaryrd}
 \usepackage{verbatim}
 \usepackage{cleveref}
+\usepackage{csquotes}
 
 \hypersetup{
     colorlinks,
@@ -28,9 +29,13 @@
 
 \newcommand{\ignore}[1]{}
 
-\newcommand{\st}{s.t.}
-\newcommand{\ie}{i.e.}
-\newcommand{\eg}{e.g.}
+
+\newcommand{\eg}{\textit{e.g.}\xspace}
+\newcommand{\ie}{\textit{i.e.}\xspace}
+\newcommand{\ea}{\textit{et al.}\xspace}
+\newcommand{\etc}{\textit{etc.}\xspace}
+\newcommand{\resp}{resp.\xspace}
+\newcommand{\st}{s.t.\xspace}
 
 \newcommand{\sep}{\;|\;}
 \renewcommand{\rule}[2]{\dfrac{#1}{#2}}
@@ -53,11 +58,14 @@
 \newcommand{\poly}[2]{#1[#2]}
 \newcommand{\powerseries}[2]{#1[\![#2]\!]}
 \newcommand{\dollar}{\$}
+\newcommand{\coef}[2]{[#1]#2}
 
 \newcommand{\C}{\mathbb C}
 \newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
+\newcommand{\K}{\mathbb K}
+\newcommand{\R}{\mathbb R}
 
 \newcommand{\NL}{\textsf{NL}}
 \newcommand{\NC}[1]{$\textsf{NC}^{#1}$}
@@ -67,7 +75,7 @@
 
 \newtheorem{exercise}{Exercise}
 
-\newenvironment{solution}{\begin{proof}[\protect{\textnormal{\emph{Solution.}}}]}{\end{proof}}
+\newenvironment{solution}{\color{teal} \begin{proof}[\protect{\textnormal{\emph{Solution.}}}]}{\end{proof}}
 
 \let\oldqedhere\qedhere
 

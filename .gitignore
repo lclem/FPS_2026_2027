@@ -19,3 +19,6 @@ tutorials/build
 *.pdfsync
 *.synctex.gz
 *.fdb_latexmk
+
+**/aux/*
+**/out/*
