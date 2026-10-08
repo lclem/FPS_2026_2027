@@ -11,10 +11,7 @@ $(BUILD):
 
 $(BUILD)/%.pdf: %.tex common.tex $(BUILD) Makefile
 	@echo + Making $@ from $<
-	pdflatex -output-directory=$(BUILD) "$(patsubst $(BUILD)/%.pdf,%.tex,$@)"
-	bibtex "$(patsubst $(BUILD)/%.pdf,$(BUILD)/%,$@)"
-	pdflatex -output-directory=$(BUILD) "$(patsubst $(BUILD)/%.pdf,%.tex,$@)"
-	pdflatex -output-directory=$(BUILD) "$(patsubst $(BUILD)/%.pdf,%.tex,$@)"
+	latexmk -pdf -bibtexfudge- -output-directory=$(BUILD) "$(patsubst $(BUILD)/%.pdf,%.tex,$@)"
 # 	cp $@ "$(patsubst $(BUILD)/%.pdf,%.pdf,$@)"
 
 $(TUTORIALS) : $(BUILD)/%.pdf : %.tex
