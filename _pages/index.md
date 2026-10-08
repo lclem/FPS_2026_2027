@@ -3,12 +3,13 @@ title: Formal power series, and applications
 permalink: /
 layout: default
 ---
-#  Calendar
+
+# Calendar
 
 | week |  date | lecture           | tutorial                     | note |
 | ---: | ----: | :---------------- | :--------------------------- | ---- |
 |    1 | 06.10 | [01](lectures/01) | [01](tutorials/build/01.pdf) |      |
-|    2 | 13.10 | [02](lectures/02) |                              |      |
+|    2 | 13.10 | [02](lectures/02) | [02](tutorials/build/02.pdf) |      |
 |    3 | 20.10 |                   |                              |      |
 |    4 | 27.10 |                   |                              |      |
 |    5 | 03.11 |                   |                              |      |
@@ -22,7 +23,9 @@ layout: default
 |   13 | 19.01 |                   |                              |      |
 
 [plan](plan)
+
 # Book references
+
 - {% reference SalomaaSoittola:Book:PowerSeries:1978 %}
 - {% reference KuichSalomaa:1986 %}
 - {% reference BerstelReutenauer:1988 %}
