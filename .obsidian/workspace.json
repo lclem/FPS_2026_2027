@@ -11,10 +11,14 @@
             "id": "66cb2f65f518daa3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_pages/lectures/02.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "02"
             }
           }
         ]
@@ -95,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "_pages/lectures/02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "_pages/lectures/02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -157,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md",
+                "file": "_pages/lectures/02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -186,37 +190,39 @@
   },
   "active": "66cb2f65f518daa3",
   "lastOpenFiles": [
+    "_images/meiburg.png",
     "_images/etr-counting-hierarchy-1.png",
     "_images/etr-counting-hierarchy-2.png",
+    "_pages/index.md",
     "_pages/lectures/02.md",
+    "_pages/lectures/01.md",
+    "tutorials/01.tex",
+    "tutorials/pdflatex5632.fls",
+    "tutorials/pdflatex5628.fls",
     "tutorials/01.blg",
-    "tutorials/01.pdf",
     "tutorials/01.bbl",
-    "tutorials/01.aux",
-    "tutorials/01.fdb_latexmk",
-    "tutorials/01.log",
-    "tutorials/01.pdfsync",
+    "tutorials/01.pdf",
     "tutorials/01.out",
-    "tutorials/build/01.blg",
-    "tutorials/build/01.bbl",
+    "tutorials/01.pdfsync",
+    "tutorials/01.log",
+    "tutorials/01.fls",
     "_images/ideals.png",
     "_images/polynomial_automata.png",
-    "_pages/index.md",
-    "docs/index.md",
-    "_pages/plan.md",
-    "_pages/lectures/01.md",
-    "_site/README.md",
-    "_site/assets/images/blacktocat.png",
-    "_site/assets/images/sprite_download.png",
-    "_site/assets/images/bg_hr.png",
-    "_site/assets/images/icon_download.png",
-    "_site/docs/index.md",
-    "lectures/01.md",
     "index.md",
+    "_site/assets/images/sprite_download.png",
+    "_site/assets/images/icon_download.png",
+    "_site/assets/images/blacktocat.png",
+    "_site/assets/images/bg_hr.png",
+    "_site/README.md",
+    "_pages/plan.md",
+    "_site/docs/index.md",
+    "docs/index.md",
     "plan.md",
-    "docs/plan.md",
+    "lectures/01.md",
     "docs/lectures/01.md",
-    "lecture_01.md",
+    "docs/plan.md",
+    "docs/lectures/lecture_01.md",
+    "docs/lectures/lecture 01.md",
     "docs/lectures/02/summary.md"
   ]
 }
