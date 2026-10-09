@@ -190,6 +190,8 @@
   },
   "active": "66cb2f65f518daa3",
   "lastOpenFiles": [
+    "_images/lics2023.png",
+    "tutorials/02.tex",
     "_images/meiburg.png",
     "_images/etr-counting-hierarchy-1.png",
     "_images/etr-counting-hierarchy-2.png",
@@ -205,7 +207,6 @@
     "tutorials/01.out",
     "tutorials/01.pdfsync",
     "tutorials/01.log",
-    "tutorials/01.fls",
     "_images/ideals.png",
     "_images/polynomial_automata.png",
     "index.md",
