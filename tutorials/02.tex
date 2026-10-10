@@ -9,6 +9,8 @@
 
 \maketitle
 
+\section*{Algebraic power series}
+
 \begin{exercise}[Algebraic series and context-free languages]
     Determine the number of words of length $2n$ in the Dyck
     language, \ie the language of well-parenthesized words.
@@ -17,6 +19,17 @@
     \sum_{n=1}^{\infty} \frac{2}{n} \binom{2n-2}{n-1} x^n$ to avoid
     tedious calculations (this can be shown using the generalized
     binomial theorem).
+\end{exercise}
+
+\begin{exercise}[Compositional inverses]
+    Let $f \in \powerseries \Q x$ be a power series.
+    It admits a \emph{right compositional inverse} if there is $g \in \powerseries \Q x$ \st~$f(g(x)) = x$.
+    %
+    \begin{enumerate}
+        \item When does $f$ admit a right compositional inverse?
+        \item If $f$ admits a right compositional inverse, does it admit a left compositional inverse?
+        \item If $f$ admits a right compositional inverse and is algebraic, is the inverse also algebraic?
+    \end{enumerate}
 \end{exercise}
 
 \bibliography{../_bibliography/references}
