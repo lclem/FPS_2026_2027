@@ -190,6 +190,8 @@
   },
   "active": "66cb2f65f518daa3",
   "lastOpenFiles": [
+    "_pages/lectures/01.md",
+    "_pages/lectures/02.md",
     "tutorials/02.pdf",
     "tutorials/build/pdflatex53111.fls",
     "tutorials/build/pdflatex53107.fls",
@@ -200,9 +202,6 @@
     "tutorials/build/03.out",
     "tutorials/build/03.pdfsync",
     "tutorials/build/03.log",
-    "tutorials/build/03.fls",
-    "_pages/lectures/02.md",
-    "_pages/lectures/01.md",
     "_pages/index.md",
     "_images/ift.jpg",
     "_images/lics2023.png",
