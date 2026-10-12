@@ -11,11 +11,13 @@
             "id": "66cb2f65f518daa3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "tutorials/02.pdf"
+                "file": "_pages/lectures/02.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
+              "icon": "lucide-file",
               "title": "02"
             }
           }
@@ -97,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tutorials/02.pdf",
+                "file": "_pages/lectures/02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tutorials/02.pdf",
+                "file": "_pages/lectures/02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -159,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tutorials/02.pdf",
+                "file": "_pages/lectures/02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -186,8 +188,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "22fc8186e186c478",
+  "active": "66cb2f65f518daa3",
   "lastOpenFiles": [
+    "tutorials/02.pdf",
     "tutorials/build/pdflatex53111.fls",
     "tutorials/build/pdflatex53107.fls",
     "tutorials/build/pdflatex52294.fls",
@@ -198,7 +201,6 @@
     "tutorials/build/03.pdfsync",
     "tutorials/build/03.log",
     "tutorials/build/03.fls",
-    "tutorials/build/pdflatex52290.fls",
     "_pages/lectures/02.md",
     "_pages/lectures/01.md",
     "_pages/index.md",
