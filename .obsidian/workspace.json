@@ -11,10 +11,12 @@
             "id": "66cb2f65f518daa3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "tutorials/02.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "02"
             }
           }
         ]
@@ -95,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "tutorials/02.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "tutorials/02.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -157,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md",
+                "file": "tutorials/02.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -184,42 +186,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "66cb2f65f518daa3",
+  "active": "22fc8186e186c478",
   "lastOpenFiles": [
-    "tutorials/02.synctex(busy)",
-    "tutorials/02.out",
-    "tutorials/02.aux",
-    "tutorials/02.log",
-    "tutorials/02.synctex.gz",
-    "tutorials/02.pdf",
-    "tutorials/02.pdfsync",
+    "tutorials/build/pdflatex53111.fls",
+    "tutorials/build/pdflatex53107.fls",
+    "tutorials/build/pdflatex52294.fls",
+    "tutorials/build/03.blg",
+    "tutorials/build/03.bbl",
+    "tutorials/build/03.pdf",
+    "tutorials/build/03.out",
+    "tutorials/build/03.pdfsync",
+    "tutorials/build/03.log",
+    "tutorials/build/03.fls",
+    "tutorials/build/pdflatex52290.fls",
+    "_pages/lectures/02.md",
+    "_pages/lectures/01.md",
+    "_pages/index.md",
     "_images/ift.jpg",
     "_images/lics2023.png",
     "_images/meiburg.png",
-    "tutorials/02.tex",
     "_images/etr-counting-hierarchy-1.png",
     "_images/etr-counting-hierarchy-2.png",
-    "_pages/lectures/02.md",
-    "tutorials/01.blg",
-    "tutorials/01.pdf",
-    "tutorials/01.bbl",
     "_images/ideals.png",
     "_images/polynomial_automata.png",
-    "_pages/index.md",
-    "docs/index.md",
-    "_pages/plan.md",
-    "_pages/lectures/01.md",
-    "_site/README.md",
-    "_site/assets/images/blacktocat.png",
-    "_site/assets/images/sprite_download.png",
-    "_site/assets/images/bg_hr.png",
-    "_site/docs/index.md",
-    "lectures/01.md",
     "index.md",
+    "_site/assets/images/sprite_download.png",
+    "_site/assets/images/icon_download.png",
+    "_site/assets/images/blacktocat.png",
+    "_site/README.md",
+    "_pages/plan.md",
+    "_site/docs/index.md",
+    "docs/index.md",
     "plan.md",
-    "docs/plan.md",
+    "lectures/01.md",
     "docs/lectures/01.md",
-    "lecture_01.md",
+    "docs/plan.md",
+    "docs/lectures/lecture_01.md",
+    "docs/lectures/lecture 01.md",
     "docs/lectures/02/summary.md"
   ]
 }
