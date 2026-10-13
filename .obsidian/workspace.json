@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/lectures/02.md",
+                "file": "_pages/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02"
+              "title": "index"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/lectures/02.md",
+                "file": "_pages/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/lectures/02.md",
+                "file": "_pages/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_pages/lectures/02.md",
+                "file": "_pages/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,8 +190,8 @@
   },
   "active": "66cb2f65f518daa3",
   "lastOpenFiles": [
-    "_pages/lectures/01.md",
     "_pages/lectures/02.md",
+    "_pages/lectures/01.md",
     "tutorials/02.pdf",
     "tutorials/build/pdflatex53111.fls",
     "tutorials/build/pdflatex53107.fls",

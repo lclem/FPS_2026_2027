@@ -1,5 +1,5 @@
 ---
-title: Formal power series, and applications
+title: "[Formal power series, and applications](https://lclem.github.io/FPS_2026_2027)"
 permalink: /
 layout: default
 ---
