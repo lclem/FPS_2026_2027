@@ -9,60 +9,93 @@
 
 \maketitle
 
-\section*{Algebraic power series}
-
-\begin{exercise}[Algebraic series and context-free languages]
-    Determine the number of words of length $2n$ in the Dyck
-    language, \ie the language of well-parenthesized words.
-
-    \emph{Hint:} use the identity $\sqrt{1 - 4x} = 1 -
-    \sum_{n=1}^{\infty} \frac{2}{n} \binom{2n-2}{n-1} x^n$ to avoid
-    tedious calculations (this can be shown using the generalized
-    binomial theorem).
+\begin{exercise}[Minimal polynomials]
+    \begin{enumerate}
+        \item[]
+        \item Show that an algebraic formal power series is not
+            always uniquely determined by its minimal polynomial.
+        \item Suppose the minimal polynomial $P \in
+            \poly{\rat{\Q}{x}}{y}$ of an algebraic series $f$ has
+            more than one formal power series root. Can there be
+            another polynomial $Q \in  \poly{\rat{\Q}{x}}{y}$ that
+            uniquely characterizes $f$?
+        \item Give examples of polynomials that admit exactly one
+            formal power series root, and examples of polynomials
+            that admit none.
+    \end{enumerate}
 \end{exercise}
 
-\subsection*{Composition}
-
-\begin{exercise}[Composition of algebraic power series]
-    Let $f, g \in \powerseries \Q x$ be power series.
+\begin{exercise}[Composition of formal power series]
+    Let $f, g \in \powerseries \Q x$.
     \begin{enumerate}
         \item Under which conditions does the composition $f \circ g$ exist?
-        \item Show that if $f$ and $g$ are algebraic, then $f \circ g$ is algebraic as well.
+        \item Show that rational and algebraic series are closed
+            under composition.
     \end{enumerate}
 \end{exercise}
 
 \begin{exercise}[Compositional inverses]
     Let $f \in \powerseries \Q x$ be a power series.
-    It admits a \emph{right compositional inverse} if there is $g \in \powerseries \Q x$ \st~$f(g(x)) = x$.
-    %
+    It admits a \emph{right compositional inverse} if there exists $g
+    \in \powerseries \Q x$ such that $f(g(x)) = x$.
     \begin{enumerate}
         \item When does $f$ admit a right compositional inverse?
-        \item If $f$ admits a right compositional inverse, does it admit a left compositional inverse?
-        \item If $f$ admits a right compositional inverse and is algebraic, is the inverse also algebraic?
+        \item If $f$ admits a right compositional inverse, does it
+            admit a left compositional inverse?
+        \item If $f$ admits a right compositional inverse and is
+            algebraic, is the inverse also algebraic?
     \end{enumerate}
 \end{exercise}
 
 \begin{exercise}[Lagrange inversion formula]
-    The purpose of this exercise is to develop a purely algebraic proof of the Lagrange inversion formula.
-    Let $\phi \in \powerseries \Q w$ be a power series with $\phi(0) \neq 0$
-    and let $f \in \powerseries \Q x$ be the unique power series \st
-    \begin{align*}
-        f = x \phi(f).
-    \end{align*}
-    %
-    Show that for all $n \geq 1$,
-
-    \begin{align*}
-        \coef {x^n} {f(x)} = \frac 1 n \coef {w^{n-1}} {\phi(w)^n}.
-    \end{align*}
+    The purpose of this exercise is to develop a purely algebraic
+    proof of the Lagrange inversion formula.
+    \begin{enumerate}
+        \item Let $\phi \in \powerseries \Q w$ be a power series with
+            $\phi(0) \neq 0$ and let $f \in \powerseries \Q x$ be the
+            unique power series such that $f = x \phi(f)$.
+            Show that for all $n \geq 1$,
+            $\coef {x^n} {f(x)} = \frac 1 n \coef {w^{n-1}} {\phi(w)^n}$.
+        \item Let $f$ be unique power series such that $f = x e^f$.
+            Use the Lagrange inversion formula to show that
+            $\coef {x^n} f = \frac {n^{n-1}} {n!}$.
+    \end{enumerate}
 \end{exercise}
 
-\begin{exercise}
-    Let $T$ be unique power series \st~$T = x e^T$.
-    Use the Lagrange inversion formula to show that
-    $\coef {x^n} T = \frac {n^{n-1}} {n!}$.
+\begin{exercise}[Algebraic series and context-free languages]
+    Determine the number of words of length $2n$ in the Dyck
+    language, \ie the language of well-parenthesized words.
+
+    \emph{Hint:} you may use Lagrange inversion or the identity
+    $\sqrt{1 - 4x} = 1 - \sum_{n=1}^{\infty} \frac{2}{n}
+    \binom{2n-2}{n-1} x^n$ to avoid tedious calculations (this can be
+    shown using the generalized binomial theorem).
 \end{exercise}
 
-\bibliography{../_bibliography/references}
+\begin{exercise}[Showing transcendence]
+    \begin{enumerate}
+        \item[]
+        \item Show that $e^x$ is not an algebraic power series.
+        \item We will now show Eisenstein's theorem, which can be
+            stated as follows: if $f = \sum_{n \in \N} f_n x^n \in
+            \powerseries{\Q}{x}$ is algebraic, then there exists a
+            positive integer $M$ such that $M^n f_n \in \Z$ for all $n \in \N$.
+            \begin{enumerate}
+                \item Show that for all $f \in \powerseries{\Q}{x}$
+                    with $f(0) = 0$, if there exists $Q \in
+                    \poly{\Z}{x}$ such that, $Q(x,f)=0$, $Q(0,0)=0$
+                    and $\frac{\partial Q}{\partial y}(0,0) = c \neq
+                    0$ then $f(c^2x) \in \powerseries{\Z}{x}$.
+                \item Prove Eisenstein's theorem.
+            \end{enumerate}
+        \item Deduce an alternative proof of the transcendence of $e^x$.
+        \item Is the converse of Eisenstein's theorem true?
+    \end{enumerate}
+\end{exercise}
+% \begin{solution}
+%     Alternative proof in~\cite{PolSze1998}.
+% \end{solution}
+
+% \bibliography{../_bibliography/references}
 
 \end{document}
