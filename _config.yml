@@ -51,8 +51,9 @@ exclude:
 
 scholar:
   # style: modern-language-association
-  style: apa
+  # style: apa
   # style: assets/natbib.csl
+  style: chicago-author-date
   locale: en
   source: ./_bibliography
   bibliography: references.bib
