@@ -6,21 +6,21 @@ layout: default
 
 # Calendar
 
-| week |  date | lecture           | tutorial                     | note |
-| ---: | ----: | :---------------- | :--------------------------- | ---- |
-|    1 | 06.10 | [01](lectures/01) | [01](tutorials/build/01.pdf) |      |
-|    2 | 13.10 | [02](lectures/02) | [02](tutorials/build/02.pdf) |      |
-|    3 | 20.10 |                   |                              |      |
-|    4 | 27.10 |                   |                              |      |
-|    5 | 03.11 |                   |                              |      |
-|    6 | 10.11 |                   |                              |      |
-|    7 | 17.11 |                   |                              |      |
-|    8 | 24.11 |                   |                              |      |
-|    9 | 01.12 |                   |                              |      |
-|   10 | 08.12 |                   |                              |      |
-|   11 | 15.12 |                   |                              |      |
-|   12 | 12.01 |                   |                              |      |
-|   13 | 19.01 |                   |                              |      |
+| week |  date | lecture           | tutorial                     | note                   |
+| ---: | ----: | :---------------- | :--------------------------- | ---------------------- |
+|    1 | 06.10 | [01](lectures/01) | [01](tutorials/build/01.pdf) | rational power series  |
+|    2 | 13.10 | [02](lectures/02) | [02](tutorials/build/02.pdf) | algebraic power series |
+|    3 | 20.10 | [03](lectures/03) | [03](tutorials/build/03.pdf) | D-finite power series  |
+|    4 | 27.10 |                   |                              | CDA power series       |
+|    5 | 03.11 |                   |                              |                        |
+|    6 | 10.11 |                   |                              |                        |
+|    7 | 17.11 |                   |                              |                        |
+|    8 | 24.11 |                   |                              |                        |
+|    9 | 01.12 |                   |                              |                        |
+|   10 | 08.12 |                   |                              |                        |
+|   11 | 15.12 |                   |                              |                        |
+|   12 | 12.01 |                   |                              |                        |
+|   13 | 19.01 |                   |                              |                        |
 
 [plan](plan)
 

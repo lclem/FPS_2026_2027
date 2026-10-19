@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "03"
             }
-          },
-          {
-            "id": "328e8998ea12dd4a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.14.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.14.4"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,13 +188,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "328e8998ea12dd4a",
+  "active": "66cb2f65f518daa3",
   "lastOpenFiles": [
+    "_pages/index.md",
+    "_pages/lectures/03.md",
     "tutorials/03.synctex(busy)",
     "tutorials/pdflatex90586.fls",
     "_pages/lectures/02.md",
     "_pages/lectures/01.md",
-    "_pages/lectures/03.md",
     "homeworks/01.tex",
     "homeworks",
     "tutorials/03.fdb_latexmk",
@@ -215,11 +203,9 @@
     "tutorials/pdflatex60634.fls",
     "tutorials/03.blg",
     "tutorials/03.bbl",
-    "_pages/index.md",
     "README.md",
     "_pages/plan.md",
     "tutorials/02.pdf",
-    "tutorials/build/pdflatex53111.fls",
     "_images/ift.jpg",
     "_images/lics2023.png",
     "_images/meiburg.png",
