@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "03"
             }
+          },
+          {
+            "id": "328e8998ea12dd4a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +201,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "66cb2f65f518daa3",
+  "active": "328e8998ea12dd4a",
   "lastOpenFiles": [
     "tutorials/03.synctex(busy)",
     "tutorials/pdflatex90586.fls",
