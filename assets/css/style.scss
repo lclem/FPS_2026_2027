@@ -3,6 +3,17 @@
 
 @import "jekyll-theme-slate";
 
+.inner {
+    max-width: 640px;
+}
+
+#main_content table {
+    width: 100%;
+    max-width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .content-container {
     padding: 2rem 1rem;
 }
