@@ -9,56 +9,89 @@
 
 \maketitle
 
-\section*{Hadamard product}
-
-Let $x = \tuple{x_1, \dots, x_d}$ be a tuple of commuting indeterminates.
-%
-The \emph{Hadamard product} of two multivariate power series $f, g \in \powerseries \Q x$ is
-%
-\begin{align*}
-    f \hadamard g = \sum_{n \in \N^d} f_n g_n \cdot x^n.
-\end{align*}
-
-\begin{exercise}
-    Show that the Hadamard product of two univariate rational power series is rational.
-\end{exercise}
-
-\begin{exercise}
-    Is the Hadamard product of two multivariate rational power series necessarily rational?
+\begin{exercise}[Showing transcendence]
+    \begin{enumerate}
+        \item[]
+        \item Show that $e^x$ is not an algebraic power series.
+        \item We will now show Eisenstein's theorem, which can be
+            stated as follows: if $f = \sum_{n \in \N} f_n x^n \in
+            \powerseries{\Q}{x}$ is algebraic, then there exists a
+            positive integer $M$ such that $M^n f_n \in \Z$ for
+            all $n \in \N$.
+            \begin{enumerate}
+                \item Show that for all $f \in \powerseries{\Q}{x}$
+                    with $f(0) = 0$, if there exists $Q \in
+                    \poly{\Z}{x}$ such that, $Q(x,f)=0$, $Q(0,0)=0$
+                    and $\frac{\partial Q}{\partial y}(0,0) = c \neq
+                    0$ then $f(c^2x) \in \powerseries{\Z}{x}$.
+                \item Prove Eisenstein's theorem.
+            \end{enumerate}
+        \item Deduce an alternative proof of the transcendence of $e^x$.
+        \item Show that $\sum_{n \in \mathbb{N}} x^{n^2}$ is not D-finite.
+        \item  Is the converse of Eisenstein's theorem true?
+    \end{enumerate}
 \end{exercise}
 
 \section*{D-finite power series}
 
 \begin{exercise}
-    Consider power series $f_1, \dots, f_k \in \powerseries \Q x$ satisfying a \emph{system of linear differential equations} over $\rat \Q x$
-    %
-    \begin{align}
-        f_i' = A_{i1} \cdot f_1 + \dots + A_{ik} \cdot f_k,
-        \quad A_{ij} \in \rat \Q x,
+    Consider power series $f_1, \dots, f_k \in \powerseries \Q x$
+    satisfying a \emph{system of linear differential equations} over $\rat \Q x$
+    \[
+        f_i' = p_{i1} \cdot f_1 + \dots + p_{ik} \cdot f_k,
+        \quad p_{ij} \in \rat \Q x,
         \quad 1 \leq i \leq k.
-    \end{align}
+    \]
     %
     Show that $f_1$ is D-finite.
 \end{exercise}
 
-\begin{exercise}
-    Are D-finite power series closed under composition?
+\begin{exercise}[Closure by composition]
+    \begin{enumerate}
+        \item[]
+        \item Let $f \in \powerseries{\Q}{x}$ be a D-finite series
+            and let $g \in \powerseries{\Q}{x}$ be an algebraic
+            series such that $g(0) = 0$.
+            Show that $f \circ g$ is D-finite.
+        \item Show that D-finite series are not closed by composition.
+    \end{enumerate}
 \end{exercise}
 
+\section*{Hadamard product and diagonals}
+
 \begin{exercise}
-    Let $f \in \powerseries \Q {x_1, \dots, x_k}$ be a multivariate D-finite power series
-    and let $g_1, \dots, g_k \in \powerseries \Q {y_1, \dots, y_\ell}$ be algebraic multivariate power series without constant term,
-    $g_1(0) = \dots = g_k(0) = 0$.
-    %
-    Show that $f(g_1, \dots, g_k)$ is D-finite.
+    Show that the Hadamard product of two univariate rational power
+    series is rational.
 \end{exercise}
 
-\section*{Unambiguous Parikh automata}
+Let $f \in \powerseries{\Q}{x_1, \dots, x_k}$ be a multivariate
+formal power series.
+The \emph{diagonal} of $f$ is defined as the univariate series $\mathrm{diag}(f)
+= \sum_{n \in \N} \coef{x_1^n \dots x_k^n}{f} x^n \in \powerseries{\Q}{x}$.
+
+We can show that the diagonal of any bivariate rational series is
+algebraic (see \eg~\cite[Theorem 6.3.3]{Sta2023}).
 
 \begin{exercise}
-  The \emph{ambiguity problem} for Parikh automata takes as input a Parikh automaton
-  and asks whether it is unambiguous.
-  Is the ambiguity problem decidable?
+    Show that the Hadamard product of two bivariate rational power
+    series is algebraic.
+\end{exercise}
+
+Similarly, the diagonal of any multivariate rational series is
+D-finite (see \eg~\cite[Theorem 5.33]{Kauers:D-finite:2023}).
+
+\begin{exercise}
+    Show that the Hadamard product of two multivariate rational power
+    series is D-finite.
+\end{exercise}
+
+\section*{Parikh automata}
+
+\begin{exercise}
+    The \emph{ambiguity problem} for Parikh automata takes as input a
+    Parikh automaton
+    and asks whether it is unambiguous.
+    Is the problem decidable?
 \end{exercise}
 
 \bibliography{../_bibliography/references}
