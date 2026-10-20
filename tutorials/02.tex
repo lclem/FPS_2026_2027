@@ -263,19 +263,19 @@
         \item By contradiction, suppose that $e^x$ is algebraic, then
             there exists a minimal $d \in \N$ such that
             \begin{equation}\label{eq:expo}
-                \sum_{i = 0}^{d} p_i(x) e^ix = 0
+                \sum_{i = 0}^{d} p_i(x) e^{ix} = 0
             \end{equation}
             for some $p_0, \dots, p_d \in \rat{\Q}{x}$.
             Without loss of generality, we can assume that $p_d = 1$.
             By derivation, we obtain
             \begin{equation}\label{eq:drvexpo}
-                \sum_{i = 0}^{d} p_i'(x) e^ix + i p_i(x) e^ix = 0
+                \sum_{i = 0}^{d} p_i'(x) e^{ix} + i p_i(x) e^{ix} = 0
             \end{equation}
 
             Subtracting $d$ times the equation~\eqref{eq:expo}
             from~\eqref{eq:drvexpo} we obtain
             \[
-                \sum_{i = 0}^{d-1} (p_i'(x) + (i-d) p_i(x)) e^ix = 0
+                \sum_{i = 0}^{d-1} (p_i'(x) + (i-d) p_i(x)) e^{ix} = 0
             \]
             contradicting the minimality of $d$.
     \end{enumerate}
